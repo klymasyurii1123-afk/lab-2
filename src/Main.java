@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         int size = 1000000;      // Array size
-        int threadCount = 16;     // You can change this to 2, 8, 16 for your report
+        int threadCount = 2;     // You can change this to 2, 8, 16 for your report
         int[] array = new int[size];
         Random rnd = new Random();
 
